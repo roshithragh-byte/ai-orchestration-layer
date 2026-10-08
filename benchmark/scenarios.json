@@ -1,0 +1,361 @@
+[
+  {
+    "id": "A01",
+    "category": "adversarial",
+    "title": "Missing information",
+    "objective": "Complete a research task where critical input information is intentionally missing; identify uncertainty rather than inventing facts.",
+    "acceptance_criteria": [
+      "uncertainty handling"
+    ],
+    "difficulty": "adversarial",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "A02",
+    "category": "adversarial",
+    "title": "Tool failure recovery",
+    "objective": "Complete a task where the primary data source becomes unavailable midway through execution.",
+    "acceptance_criteria": [
+      "recovery",
+      "fallback"
+    ],
+    "difficulty": "adversarial",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "A03",
+    "category": "adversarial",
+    "title": "Conflicting evidence",
+    "objective": "Resolve a task containing conflicting sources and explicitly justify the selected evidence.",
+    "acceptance_criteria": [
+      "source arbitration"
+    ],
+    "difficulty": "adversarial",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "A04",
+    "category": "adversarial",
+    "title": "Invalid artifact",
+    "objective": "Continue a multi-step workflow after an intermediate task returns output that violates its declared schema.",
+    "acceptance_criteria": [
+      "validation",
+      "recovery"
+    ],
+    "difficulty": "adversarial",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "A05",
+    "category": "adversarial",
+    "title": "Requirement change",
+    "objective": "Adapt an in-progress workflow after the acceptance criteria change midway through execution.",
+    "acceptance_criteria": [
+      "replanning",
+      "dependency impact"
+    ],
+    "difficulty": "adversarial",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "D01",
+    "category": "data",
+    "title": "CSV analysis",
+    "objective": "Analyze a customer dataset, identify meaningful trends, and produce a decision-oriented summary.",
+    "acceptance_criteria": [
+      "calculation",
+      "completeness"
+    ],
+    "difficulty": "medium",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "D02",
+    "category": "data",
+    "title": "Metric diagnosis",
+    "objective": "Investigate a sudden drop in a product metric and identify the most plausible drivers.",
+    "acceptance_criteria": [
+      "causal reasoning",
+      "evidence"
+    ],
+    "difficulty": "medium",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "D03",
+    "category": "data",
+    "title": "Anomaly detection",
+    "objective": "Find anomalous patterns in a structured dataset and distinguish data-quality issues from real signals.",
+    "acceptance_criteria": [
+      "classification",
+      "evidence"
+    ],
+    "difficulty": "medium",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "D04",
+    "category": "data",
+    "title": "Alternative comparison",
+    "objective": "Compare several business alternatives using explicit criteria and recommend a choice.",
+    "acceptance_criteria": [
+      "criteria",
+      "arithmetic",
+      "recommendation"
+    ],
+    "difficulty": "medium",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "D05",
+    "category": "data",
+    "title": "Decision analysis",
+    "objective": "Build a quantitative recommendation from a small dataset with stated assumptions.",
+    "acceptance_criteria": [
+      "calculation",
+      "assumptions"
+    ],
+    "difficulty": "medium",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "P01",
+    "category": "planning",
+    "title": "Migration plan",
+    "objective": "Create a phased migration plan for moving a production application to a new database architecture.",
+    "acceptance_criteria": [
+      "dependencies",
+      "risk",
+      "sequencing"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "P02",
+    "category": "planning",
+    "title": "Architecture plan",
+    "objective": "Design an architecture for a multi-tenant AI application with clear trust boundaries.",
+    "acceptance_criteria": [
+      "architecture",
+      "security"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "P03",
+    "category": "planning",
+    "title": "Release plan",
+    "objective": "Create a production release plan with validation gates, rollback, and ownership.",
+    "acceptance_criteria": [
+      "gates",
+      "rollback"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "P04",
+    "category": "planning",
+    "title": "Implementation roadmap",
+    "objective": "Turn a broad product objective into an ordered engineering roadmap with dependencies.",
+    "acceptance_criteria": [
+      "decomposition",
+      "prioritization"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "P05",
+    "category": "planning",
+    "title": "Dependency impact",
+    "objective": "Determine which components are affected by a proposed architectural change and why.",
+    "acceptance_criteria": [
+      "dependency completeness"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "R01",
+    "category": "research",
+    "title": "Technology landscape",
+    "objective": "Research the current landscape of AI agent orchestration frameworks and identify the major architectural patterns.",
+    "acceptance_criteria": [
+      "evidence synthesis",
+      "completeness"
+    ],
+    "difficulty": "medium",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "R02",
+    "category": "research",
+    "title": "Technology comparison",
+    "objective": "Compare two AI orchestration approaches and recommend one for a small engineering team.",
+    "acceptance_criteria": [
+      "comparison",
+      "recommendation"
+    ],
+    "difficulty": "medium",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "R03",
+    "category": "research",
+    "title": "Competitive analysis",
+    "objective": "Analyze competitors in AI workflow orchestration and identify differentiated positioning opportunities.",
+    "acceptance_criteria": [
+      "competitor coverage",
+      "evidence"
+    ],
+    "difficulty": "medium",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "R04",
+    "category": "research",
+    "title": "Market research",
+    "objective": "Assess whether developer-facing AI orchestration infrastructure is a viable SaaS opportunity.",
+    "acceptance_criteria": [
+      "market evidence",
+      "reasoning"
+    ],
+    "difficulty": "medium",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "R05",
+    "category": "research",
+    "title": "Vendor evaluation",
+    "objective": "Evaluate three AI platform vendors for an orchestration workload and produce a scored recommendation.",
+    "acceptance_criteria": [
+      "criteria coverage",
+      "evidence"
+    ],
+    "difficulty": "medium",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "S01",
+    "category": "software",
+    "title": "Python debugging",
+    "objective": "Diagnose a failing Python service from logs, identify the root cause, and propose a tested fix.",
+    "acceptance_criteria": [
+      "root cause",
+      "correctness"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "S02",
+    "category": "software",
+    "title": "TypeScript debugging",
+    "objective": "Diagnose a TypeScript API failure and determine the smallest safe remediation.",
+    "acceptance_criteria": [
+      "root cause",
+      "correctness"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "S03",
+    "category": "software",
+    "title": "API feature",
+    "objective": "Implement a REST API feature with validation, persistence, tests, and error handling.",
+    "acceptance_criteria": [
+      "requirements",
+      "tests"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "S04",
+    "category": "software",
+    "title": "Frontend feature",
+    "objective": "Implement a frontend feature against an existing API while preserving existing behavior.",
+    "acceptance_criteria": [
+      "requirements",
+      "integration"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "S05",
+    "category": "software",
+    "title": "Refactor",
+    "objective": "Refactor a duplicated service layer without changing observable behavior.",
+    "acceptance_criteria": [
+      "behavior preservation",
+      "tests"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "S06",
+    "category": "software",
+    "title": "Test coverage",
+    "objective": "Identify high-risk untested paths in a repository and create a prioritized test plan.",
+    "acceptance_criteria": [
+      "coverage",
+      "prioritization"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "S07",
+    "category": "software",
+    "title": "CI diagnosis",
+    "objective": "Investigate a failing CI pipeline and distinguish environment failures from product failures.",
+    "acceptance_criteria": [
+      "diagnosis",
+      "evidence"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "S08",
+    "category": "software",
+    "title": "Production readiness",
+    "objective": "Audit an application for production readiness across reliability, security, testing, and deployment.",
+    "acceptance_criteria": [
+      "coverage",
+      "severity"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "S09",
+    "category": "software",
+    "title": "Security remediation",
+    "objective": "Analyze a security finding, determine exploitability, and propose a verifiable remediation.",
+    "acceptance_criteria": [
+      "security reasoning",
+      "verification"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  },
+  {
+    "id": "S10",
+    "category": "software",
+    "title": "Deployment preparation",
+    "objective": "Prepare an application for staging deployment, including configuration validation and smoke-test planning.",
+    "acceptance_criteria": [
+      "completeness",
+      "validation"
+    ],
+    "difficulty": "high",
+    "benchmark_version": "0.1.0"
+  }
+]
